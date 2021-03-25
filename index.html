@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<<<<<<< HEAD
+        <title>Election Survey Form</title>
+=======
+        <title>Product Landing Page</title>
+>>>>>>> Product landing page commited
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<<<<<<< HEAD
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+        <style>
+            label,p
+            {
+                font-family: 'Roboto Condensed', sans-serif;
+            }
+            p
+            {
+                font-size:18px;
+                font-weight:bold;
+            }
+            body
+            {
+                background-image: url("images/Election.jpg");
+            }
+            form
+            {
+                background-color:rgb(218, 216, 216);
+                opacity:0.9;
+=======
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        
+        <style>
+            h2
+            {
+                font-family: 'Bebas Neue', cursive;
+                letter-spacing: .5px;
+>>>>>>> Product landing page commited
+            }
+        </style>
+    </head>
+    <body>
+<<<<<<< HEAD
+        <div class="container" style="width:55%">
+            <h1 class="text-center mt-5" style="color:white">Election Survey Form</h1>
+            <form class="mt-5 mb-5">
+                <fieldset class="form-groupm mt-2">
+                    <div class="row mt-5">
+                        <div class="offset-1 col-sm-11 ">
+                            <p>Please fill out the personal details below :</p>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <label for="name" class="col-form-label offset-1 col-sm-4">Full Name</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control form-control-sm" id="name" placeholder="ex : John Doe">
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <label for="emailid" class="col-form-label offset-1 col-sm-4">Email Id</label>
+                        <div class="col-sm-4">
+                            <input type="email" class="form-control form-control-sm" id="emailid" placeholder="ex : mail@gmail.com">
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <label for="dob" class="col-form-label offset-1 col-sm-4">Date of Birth</label>
+                        <div class="col-sm-4">
+                            <input type="date" class="form-control form-control-sm" id="dob" placeholder="mm/dd/yyyy">
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <label for="aadhar" class="col-form-label offset-1 col-sm-4">Aadhar Number</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control form-control-sm" id="aadhar" placeholder="ex : xxxx xxxx xxxx xxxx">
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="offset-1 col-sm-11 ">
+                            <p>Please answer the Election survey questinare below :</p>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <legend class="col-form-label offset-1 col-sm-7 pt-0">Are you registered to vote at the current address you reside at?</legend>
+                        <div class="col-sm-3">
+                            <div class="form-check  form-check-inline">
+                                <input class="form-check-input" type="radio" name="yes" id="yes">
+                                <label class="form-check-label" for="yes">
+                                Yes
+                                </label>
+                            </div>
+                            <div class="form-check  form-check-inline">
+                                <input class="form-check-input" type="radio" name="yes" id="no">
+                                <label class="form-check-label" for="no">
+                                No
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <legend class="col-form-label offset-1 col-sm-7 pt-0">Do you think the existing government is going in the right direction to benefit the people of the country?</legend>
+                        <div class="col-sm-3">
+                            <div class="form-check  form-check-inline">
+                                <input class="form-check-input" type="radio" name="existing" id="existing-yes">
+                                <label class="form-check-label" for="existing-yes">
+                                Yes
+                                </label>
+                            </div>
+                            <div class="form-check  form-check-inline">
+                                <input class="form-check-input" type="radio" name="existing" id="existing-no">
+                                <label class="form-check-label" for="existing-no">
+                                No
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="form-group offset-1 col-sm-7">
+                            <label for="support-party">Which party do you support to handle sensitive topics such as national security?</label>
+                        </div>
+                        <div class="form-group col-sm-3">
+                            <select id="support-party" class="form-control form-control-sm">
+                                <option selected>Democrats</option>
+                                <option>Republicans</option>
+                                <option>Don’t know</option>
+                                <option>I don’t support any party</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="form-group offset-1 col-sm-7">
+                            <label for="handle-topics">Which party do you support to handle sensitive topics such as national security?</label>
+                        </div>
+                        <div class="form-group col-sm-3">
+                            <select id="handle-topics" class="form-control form-control-sm">
+                                <option selected>Certain to vote</option>
+                                <option>Most likely to vote</option>
+                                <option>Probably won’t vote</option>
+                                <option>Skip the primary elections</option>
+                                <option>Don’t know</option>
+                                <option>I won’t vote</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="form-group offset-1 col-sm-7">
+                                <label for="handle-topics">On what basis do you assess a political candidate?</label>
+                        </div>
+                        <div class="form-group col-sm-3">
+                            <select id="handle-topics" class="form-control form-control-sm">
+                                <option selected>News on TV</option>
+                                <option>Articles in the newspapers</option>
+                                <option>Attend events where the candidate is addressing the people</option>
+                                <option>I research all the channels before making my choice</option>
+                                <option>Number of fundraisers the candidate has done in your area</option>
+                                <option>The family upbringing of the candidate</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                    </div>  
+                    <div class="row mt-2">
+                        <legend class="col-form-label offset-1 col-sm-7 pt-0">In your opinion, do you think gun control laws and regulations should be changed?
+                        </legend>
+                        <div class="col-sm-3">
+                            <div class="form-check  form-check-inline">
+                                <input class="form-check-input" type="radio" name="changed-law" id="changed-law-yes">
+                                <label class="form-check-label" for="changed-law-yes">
+                                Yes
+                                </label>
+                            </div>
+                            <div class="form-check  form-check-inline">
+                                <input class="form-check-input" type="radio" name="changed-law" id="changed-law-no">
+                                <label class="form-check-label" for="changed-law-no">
+                                No
+                                </label>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="form-group offset-1 col-sm-7">
+                                <label for="describe-yourself">How do you describe yourself as?</label>
+                            </div>
+                            <div class="form-group col-sm-3">
+                                <select id="describe-yourself" class="form-control  form-control-sm">
+                                    <option selected>Democrats</option>
+                                    <option>Independent</option>
+                                    <option>Republicans</option>
+                                    <option>Something else</option>
+                                    <option>Don’t know</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="form-group offset-1 col-sm-11">
+                                <p>Please state your level of agreement for the following:</p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="form-group offset-1 col-sm-7">
+                                <label for="rehabilitation">There should be more emphasis on the rehabilitation of criminals than punishment</label>
+                            </div>
+                            <div class="form-group col-sm-3">
+                                <select id="rehabilitation" class="form-control form-control-sm">
+                                    <option selected>Completely agree</option>
+                                    <option>Somewhat agree</option>
+                                    <option>Neutral</option>
+                                    <option>Somewhat disagree</option>
+                                    <option>Completely disagree</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="form-group offset-1 col-sm-7">
+                                <label for="low-income-families">Reservations should be there for low-income families only</label>
+                            </div>
+                            <div class="form-group col-sm-3">
+                                <select id="low-income-families" class="form-control form-control-sm">
+                                    <option selected>Completely agree</option>
+                                    <option>Somewhat agree</option>
+                                    <option>Neutral</option>
+                                    <option>Somewhat disagree</option>
+                                    <option>Completely disagree</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="form-group offset-1 col-sm-7">
+                                <label for="government-salaries">Government servants should have competitive salaries as given by the private sector</label>
+                            </div>
+                            <div class="form-group col-sm-3">
+                                <select id="government-salaries" class="form-control form-control-sm">
+                                    <option selected>Completely agree</option>
+                                    <option>Somewhat agree</option>
+                                    <option>Neutral</option>
+                                    <option>Somewhat disagree</option>
+                                    <option>Completely disagree</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group offset-1 col-sm-7">
+                                <label for="resolve-gap">There should be policies to resolve the gap between the rich and the poor</label>
+                            </div>
+                            <div class="form-group col-sm-3">
+                                    <select id="resolve-gap" class="form-control form-control-sm">
+                                    <option selected>Completely agree</option>
+                                    <option>Somewhat agree</option>
+                                    <option>Neutral</option>
+                                    <option>Somewhat disagree</option>
+                                    <option>Completely disagree</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="form-group offset-1 col-sm-7">
+                                <label for="laws-regulations">There should be more strict laws and regulations to eradicate corruption</label>
+                            </div>
+                            <div class="form-group col-sm-3">
+                                <select id="laws-regulations" class="form-control form-control-sm">
+                                    <option selected>Completely agree</option>
+                                    <option>Somewhat agree</option>
+                                    <option>Neutral</option>
+                                    <option>Somewhat disagree</option>
+                                    <option>Completely disagree</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="form-group offset-1 col-sm-7">
+                                <label for="increasing-employment">The government should assist corporations in increasing employment</label>
+                            </div>
+                            <div class="form-group col-sm-3">
+                                <select id="increasing-employment" class="form-control form-control-sm">
+                                    <option selected>Completely agree</option>
+                                    <option>Somewhat agree</option>
+                                    <option>Neutral</option>
+                                    <option>Somewhat disagree</option>
+                                    <option>Completely disagree</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mt-2 mb-4">
+                            <div class="form-group offset-1 col-sm-11 text-center">
+                                <button class="btn btn-primary bt-lg mr-5">Finish</button>
+                            </div>
+                        </div>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
+=======
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light justify-content-between" style="height:8vh">
+                <a class="navbar-brand" href="#" style="color:rgb(19, 20, 94);font-size:25px"><em><b>Pro</b></em></a>
+                <button class="navbar-toggler" type="button">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Today Deals</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Purchase</a>
+                    </li>
+                    <li class="nav-item">
+                      <button class="btn btn-sm btn-primary mt-1">Login</button>
+                    </li>
+                  </ul>
+                </nav>
+
+                <h2 class="text-center mt-3" style="color:rgb(24, 8, 116)">Bring Your choice</h2>
+
+                <div id="content" class="mt-3 mb-1">
+                    <div class="row text-center">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm">
+                            <figure class="figure">
+                                <img src="images/clothes.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                <figcaption class="figure-caption"><em>Fashion as unique as you are</em></figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-sm">
+                            <figure class="figure">
+                                <img src="images/baby.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                <figcaption class="figure-caption"><em>Pretty dresses, little curls</em></figcaption>
+                              </figure>
+                        </div>
+                        <div class="col-sm-1"></div>
+                    </div>
+                    <div class="row text-center mt-5">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm">
+                            <figure class="figure">
+                                <img src="images/saree.jpeg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                <figcaption class="figure-caption"><em>Lets flip to Traditional</em></figcaption>
+                              </figure>
+                        </div>
+                        <div class="col-sm">
+                            <figure class="figure">
+                                <img src="images/Tshirt.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                <figcaption class="figure-caption"><em>well,LIve well and dress really well</em></figcaption>
+                              </figure>
+                        </div>
+                        <div class="col-sm-1"></div>
+                    </div>
+                </div>
+                
+                <div id="footer">
+                    <div class="float-left">
+                            <h5 class="mt-3">&nbsp;&nbsp;SUBCSRIBER FORM</h5>
+                                <br>
+                            <div class="form-group row">
+                                <input class="form-control form-control-sm col-sm-6 offset-1" type="email" name="myemail"  placeholder="Email address" style="width:200px;height:24px">
+                                <div class="col-sm-1"></div>
+                                <input class="form-control form-control-sm col-sm-3 bg-warning" type="submit" name="submit" style="border:none">
+                            </div>
+                    </div>
+                    <div class="float-right mr-5">
+                    <h5 class="mt-2">Contact us</h5>
+                    <p style="color:rgb(37, 36, 36)">
+                        product@pro.com
+                        <br>
+                        0758-59824890
+                        <br>
+                        0890-35446576
+                        <br>
+                        abc street ,<br>
+                        Near mno complex,<br>
+                        xyz city - 09.
+                    </p>
+                    </div>
+                    
+                </div>
+                <div class="footer text-center mt-1" style="color:rgb(255, 255, 255);background-color: rgb(66, 64, 64);box-shadow:3px 3px 5px grey">
+                    <p class="p-1">@2021Copyright:pro</p>
+                </div>
+                 
+        </div>
+    </body>
+    </html>
+>>>>>>> Product landing page commited
